@@ -1,3 +1,57 @@
+/* header */
 header{
     background-color: #0020F4;
+}
+
+
+
+
+
+/* section */
+
+
+
+/* footer */
+footer{
+    margin-top: 394px;
+}
+.footer-top{
+    background-color: #0020F4;
+    height: 308px;
+    padding: 70px 0px 200px 240px;
+}
+.footer-bottom{
+    margin-top: -170px;
+    padding: 0px 240px 240px 240px;
+}
+.footer-title{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: "regular";
+}
+footer img{
+    border-radius: 15px;
+    width: 463px;
+    height: 420px;
+}
+.middle-img{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.bottom-imgs{
+    display: flex;
+    justify-content: space-between;
+}
+.left-img, .right-img{
+    margin-top: 50px;
+}
+footer span a{
+    border-left: 2px solid #171717;
+    padding-left: 20px;
+    color: #171717;
+    font-size: 18px;
+    font-family: "bold";
+    position: absolute;
+    right: 240px;
+
 }
