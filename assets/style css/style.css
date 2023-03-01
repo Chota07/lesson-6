@@ -21,6 +21,7 @@ footer{
     padding: 70px 0px 200px 240px;
 }
 .footer-bottom{
+    width: 100%;
     margin-top: -170px;
     padding: 0px 240px 240px 240px;
 }
@@ -31,10 +32,10 @@ footer{
 }
 footer img{
     border-radius: 15px;
-    width: 463px;
-    height: 420px;
+    width: 100%;
+    height: 100%;
 }
-.middle-img{
+.middle-text{
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -51,7 +52,38 @@ footer span a{
     color: #171717;
     font-size: 18px;
     font-family: "bold";
+    margin-top: 170px;
     position: absolute;
     right: 240px;
 
+}
+.left-text, .middle-text, .right-text{
+    position: relative;
+    max-width: 463px;
+    max-height: 420px;
+
+}
+.left-text p, .right-text p{
+    position: absolute;
+    bottom: -40px;
+    left: 10px;
+    width: 443px;
+    height: 125px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: "regular";
+    padding: 30px 74px 30px 30px;
+}
+.middle-text p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 443px;
+    height: 125px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: "bold";
+    padding: 28px 67px 29px 30px;
 }
