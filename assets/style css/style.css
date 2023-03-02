@@ -2,11 +2,56 @@
 header{
     background-color: #0020F4;
 }
-
-
-
-
-
+.header-top{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+nav a{
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: "regular";
+}
+.main-button{
+	margin-right: 43px;
+}
+.services-button{
+	margin-left: 53px;
+	margin-right: 45px;
+}
+.partner-button{
+	margin-left: 42px;
+	margin-right: 42px;
+}
+.contact-button{
+	color: #171717;
+	border-color: #FFFFFF;
+	border-radius: 28px;
+	padding: 18px 43px 18px 36px;
+	background-color: #FFFFFF;
+    font-family: bold;
+}
+li{
+	display: inline-block;
+}
+.header-bottom{
+    height: 935px;
+    margin: 70px 0px 65px 240px;
+}
+.left-header-img{
+    width: 707px;
+    height: 597px;
+    border-radius: 15px;
+}
+.right-header-img{
+    width: 948px;
+    height: 800px;
+    border-radius: 15px;
+}
 /* section */
 
 
